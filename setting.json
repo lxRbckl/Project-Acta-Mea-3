@@ -1,0 +1,30 @@
+{
+  "aliases" : {
+    "set" : [
+      "set",
+      "Set",
+      "SET"
+    ],
+    "get" : [
+      "get",
+      "Get",
+      "GET"
+    ],
+    "update" : [
+      "upd",
+      "Upd",
+      "UPD",
+      "update",
+      "Update",
+      "UPDATE"
+    ],
+    "delete" : [
+      "del",
+      "Del",
+      "DEL",
+      "delete",
+      "Delete",
+      "DELETE"
+    ]
+  }
+}
