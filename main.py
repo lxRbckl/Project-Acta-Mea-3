@@ -1,7 +1,7 @@
 # import <
+from os import path
 from json import loads
 from github import Github
-from os import path, execl
 from discord import Intents
 from discord.ext import commands
 from lxRbckl import jsonLoad, jsonDump
