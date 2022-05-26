@@ -156,6 +156,7 @@ async def deleteFunction(ctx, pServer: str, pService: str, pData: dict):
     # >
 
 
+@commands.has_permissions(administrator = True)
 @actaMea.command(aliases = jsonLoad(pFile = f'{gDirectory}/setting.json')['aliases'])
 async def commandFunction(ctx, pServer: str = None, pService: str = None):
     '''  '''
