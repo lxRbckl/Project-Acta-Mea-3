@@ -1,5 +1,5 @@
 ## `Project Acta Mea 3`
-> Manage servers and services through Discord with a GitHub repository data file.
+> Manage servers and services through Discord with a GitHub repository data file. Spring 2022.
 
 ### Installation
 ```
