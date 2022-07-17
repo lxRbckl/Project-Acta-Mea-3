@@ -161,15 +161,14 @@ async def deleteFunction(ctx, pServer: str, pService: str, pData: dict):
 async def commandFunction(ctx, pServer: str = None, pService: str = None):
     '''  '''
 
-    dictVariable = {
+    await {
 
         'set' : setFunction,
         'get' : getFunction,
         'update' : updateFunction,
         'delete' : deleteFunction
 
-    }
-    await dictVariable[ctx.invoked_with.lower()](
+    }[ctx.invoked_with.lower()](
 
         ctx,
         pServer,
