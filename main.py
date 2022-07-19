@@ -152,6 +152,7 @@ async def commandFunction(ctx, pServer: str = None, pService: str = None):
 
         'set' : setFunction,
         'get' : getFunction,
+        'del' : deleteFunction,
         'update' : updateFunction,
         'delete' : deleteFunction
 
@@ -160,7 +161,13 @@ async def commandFunction(ctx, pServer: str = None, pService: str = None):
         ctx,
         pServer,
         pService,
-        getData()
+        githubGet(
+
+            pFile = gFile,
+            pRepository = gRepository,
+            pGithub = Github(githubToken),
+
+        )
 
     )
 
