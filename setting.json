@@ -9,6 +9,9 @@
     "update",
     "Update",
     "UPDATE",
+    "del",
+    "Del",
+    "DEL",
     "delete",
     "Delete",
     "DELETE"
